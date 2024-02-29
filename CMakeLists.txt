@@ -5,6 +5,7 @@ include (pico_sdk_import.cmake)
 project(${target_name})
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 pico_sdk_init()
 
 # Make a GATT header file from a BTstack GATT file
